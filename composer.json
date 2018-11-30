@@ -1,21 +1,27 @@
 {
-    "name": "depsimon/laravel-wallet",
+    "name": "DuckUfo/laravel-wallet",
     "description": "Easy to use virtual wallet for your app",
     "keywords": [
-        "depsimon",
+        "DuckUfo",
         "laravel-wallet",
         "virtual",
         "currency",
         "credits",
         "wallet"
     ],
-    "homepage": "https://github.com/depsimon/laravel-wallet",
+    "homepage": "https://github.com/DuckUfo/laravel-wallet",
     "license": "MIT",
     "authors": [
         {
             "name": "Simon Depelchin",
             "email": "simon@webartisan.be",
             "homepage": "https://webartisan.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Nick Kudelia",
+            "email": "duckduck.ufo@gmail.com",
+            "homepage": "https://github.com/DuckUfo",
             "role": "Developer"
         }
     ],
@@ -25,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Depsimon\\Wallet\\": "src"
+            "DuckUfo\\Wallet\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Depsimon\\Wallet\\Tests\\": "tests"
+            "DuckUfo\\Wallet\\Tests\\": "tests"
         }
     },
     "config": {
@@ -39,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Depsimon\\Wallet\\WalletServiceProvider"
+                "DuckUfo\\Wallet\\WalletServiceProvider"
             ],
             "aliases": {
-                "Wallet": "Depsimon\\Wallet\\WalletFacade"
+                "Wallet": "DuckUfo\\Wallet\\WalletFacade"
             }
         }
     }
